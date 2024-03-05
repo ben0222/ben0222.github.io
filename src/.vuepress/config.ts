@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   // 如果你想让你的网站部署到一个子路径下，你将需要设置它。它的值应当总是以斜杠开始，并以斜杠结束。
@@ -18,7 +19,15 @@ export default defineUserConfig({
     },
   },
 
-  theme,
+  theme: hopeTheme({
+    plugins: {
+      components: {
+        components: [
+          "VidStack",
+        ],
+      },
+    },
+  }),
 
   // Enable it with pwa
   // shouldPrefetch: false,
