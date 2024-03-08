@@ -1,17 +1,37 @@
-name: Build and Deploy
-on: [push]
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
 
-    - name: Vuepress deploy
-      uses: robineco/vuepress-deploy@v2.1
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        # TARGET_REPO: username/repo not nesessary
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: blog/.vuepress/dist/
+name: release docs CI
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: 步骤：第一步 -> Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: 步骤：第二步 -> 安装依赖
+        run: |
+          npm install
+          npm run build
+        env:
+          CI: true
+
+      - name: 步骤：第三步 -> 使用脚本部署
+        env:
+          ACCESS_TOKEN_DEPLOY: ${{secrets.ACCESS_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: blog/.vuepress/dist/
+          CNAME: baguacun.online
+        uses: veaba/vuepress-actions@v0.83 
