@@ -1,18 +1,22 @@
 name: Build and Deploy
-on:
-  push:
-    branches:
-      - main
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
-
-    - name: Build and Deploy
-      uses: testthedocs/github-pages-deploy-action@master
+      
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '18.x'
+    
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: blog/.vuepress/dist/ # The folder, the action should deploy.
-        BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
+        TARGET_REPO: blog/.vuepress/dist/
+        TARGET_BRANCH: main
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: blog/.vuepress/dist/
