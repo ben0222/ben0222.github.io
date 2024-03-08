@@ -27,14 +27,15 @@ jobs:
           version: 8
 
 
-      - name: 设置 Node.js
-        uses: actions/setup-node@v3
+   
+      - name: Setup Node.js with node_modules cache
+        id: node-with-cache
+        uses: magnetikonline/action-node-modules-cache@v2
         with:
-          node-version: 20
-          cache: pnpm
-      - uses: AnnAngela/cached_node-modules@v2
-        with:
-           command: npm i
+          node-version: 18.x
+      - name: Install npm packages
+        if: steps.node-with-cache.outputs.cache-hit != 'true'
+        run: npm ci
 
       - name: 构建文档
         env:
