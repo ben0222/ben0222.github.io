@@ -32,8 +32,6 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-          
-      - name: 缓存 node_modules
       - uses: AnnAngela/cached_node-modules@v2
       - run: npm test
 
