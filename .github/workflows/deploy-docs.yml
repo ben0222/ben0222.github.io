@@ -33,7 +33,8 @@ jobs:
           node-version: 20
           cache: pnpm
       - uses: AnnAngela/cached_node-modules@v2
-     
+        with:
+           command: npm i
 
       - name: 构建文档
         env:
