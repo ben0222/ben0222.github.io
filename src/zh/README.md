@@ -3,13 +3,16 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: # https://theme-hope-assets.vuejs.press/logo.svg
-G:\licha\licha\src\.vuepress\public\assets\images\overlook1.jpeg
-heroText: # 你博客的名称 
-黎槎古村八卦景区
+heroImage: G:\licha\licha\src\.vuepress\public\assets\images\overlook1.jpeg
+# https://theme-hope-assets.vuejs.press/logo.svg
+
+# 你博客的名称
+heroText: 黎槎古村八卦景区  
 heroFullScreen: true
-tagline: # 你可以在这里放置你的口号与标语
-这是一座被时间遗忘的村落......八百年历史洗礼，韵味如旧。
+# 你可以在这里放置你的口号与标语
+tagline: 这是一座被时间遗忘的村落......八百年历史洗礼，韵味如旧。
+
+
 # projects:
 #   - icon: project
 #     name: 项目名称
