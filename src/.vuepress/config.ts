@@ -17,4 +17,5 @@ export default defineUserConfig({
     },
   },
 
-  theme,
+  theme
+});
