@@ -2,13 +2,14 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
+import { componentsPlugin } from "vuepress-plugin-components";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "梨香茶叹",
+    url: "/zh/intro.html",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -93,7 +94,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "来自华南师范大学的社会实践队伍",
         intro: "/zh/intro.html",
       },
 
@@ -126,7 +127,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "AudioPlayer", "VidStack"],
     },
 
     // all features are enabled for demo, only preserve features you need here
