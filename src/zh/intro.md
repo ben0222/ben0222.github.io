@@ -11,4 +11,4 @@ cover: /assets/images/group_photo1.jpg
 
 
 <!-- <AudioPlayer src="//assets/recording/鸿运台.aac" /> -->
-<VidStack src="\\assets/recording/6005669Z2E8143514.mp3" title="VidStack 示例音频" />
+<VidStack src="/assets/recording/hht.aac" title="鸿运台讲解 示例音频" />
