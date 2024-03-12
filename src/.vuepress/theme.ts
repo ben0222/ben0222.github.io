@@ -14,7 +14,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/assets/images/logo_licha.jpg",
+  logo: "/assets/images/logo_licha.jpg",//重新提交
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
