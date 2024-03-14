@@ -7,12 +7,12 @@ title: 主页
 
 
 # 主页标题，你博客的名称
-heroText: 黎槎古村八卦景区 
+heroText: 肇庆回龙 
 
 heroFullScreen: true
 
 # 文字描述， 你可以在这里放置你的口号与标语
-tagline: 这是一座被时间遗忘的村落......八百年历史洗礼，韵味如旧。
+tagline: 肇庆回龙全域旅游系统
 # overlook1.jpeg
 # bgImage: https://s2.loli.net/2024/03/10/VcyY4anxp6X9lre.jpg
 bgImage: /assets/images/overlook2.jpg
