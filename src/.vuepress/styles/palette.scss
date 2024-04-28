@@ -1,2 +1,78 @@
 // you can change colors here
-$theme-color: #6b282a;
+@import "iconfont.scss";
+
+$theme-color: #663300;
+$font-family: "Microsoft Yahui";
+$font-family-heading: "Noto Serif SC", serif;
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a,
+ul,
+ol,
+li,
+table,
+th,
+td,
+pre,
+code,
+kbd,
+samp {
+    font-family: $font-family;
+}
+
+
+.vp-article-list {
+    display: none;
+}
+
+// 设置标题的字体和粗细
+.vp-blog-hero-title {
+    font-family: $font-family-heading;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 60px;
+    color: #CCCC99;
+}
+
+.vp-blog-hero-description {
+    font-family: $font-family-heading;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 60px;
+    color: #CCCC99;
+}
+
+
+.blog-page-wrapper {
+    display: none;
+}
+
+.home-intro {
+    font-family: "Noto Serif SC", serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 32px;
+
+}
+
+.ewm {
+    -webkit-text-size-adjust: none;
+    text-align: justify;
+    color: #202020;
+    max-height: 999999px;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 43px;
+}

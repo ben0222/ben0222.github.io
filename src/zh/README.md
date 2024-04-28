@@ -7,57 +7,24 @@ title: 主页
 
 
 # 主页标题，你博客的名称
-heroText: 肇庆回龙 
-
+heroText: 古韵侨乡
 heroFullScreen: true
 
 # 文字描述， 你可以在这里放置你的口号与标语
-tagline: 肇庆回龙全域旅游系统
-# overlook1.jpeg
-# bgImage: https://s2.loli.net/2024/03/10/VcyY4anxp6X9lre.jpg
+tagline: 高要回龙  
 bgImage: /assets/images/overlook2.jpg
-bgImageStyle: 
+footer: ""
 
-# 梨香茶叹Logo  
-# heroImage: /assets/images/logo_licha.jpg
 
-# projects:
-#   - icon: project
-#     name: 项目名称
-#     desc: 项目详细描述
-#     link: https://你的项目链接
-
-#   - icon: link
-#     name: 链接名称
-#     desc: 链接详细描述
-#     link: https://链接地址
-
-#   - icon: book
-#     name: 书籍名称
-#     desc: 书籍详细描述
-#     link: https://你的书籍链接
-
-#   - icon: article
-#     name: 文章名称
-#     desc: 文章详细描述
-#     link: https://你的文章链接
-
-#   - icon: friend
-#     name: 伙伴名称
-#     desc: 伙伴详细介绍
-#     link: https://你的伙伴链接
-
-#   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-#     name: 自定义项目
-#     desc: 自定义详细介绍
-#     link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
 ---
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/c/font_4495279_4h7y1coxury.css"></link>
 
 <!-- 这是一个博客主页的案例。
 
 要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
 
 相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。 -->
-### 无论你信步走入哪一条巷道，踏足哪一块石头，都会翻动一页历史，触动一个朝代。
+
+<span class=home-intro> 无论你信步走入哪一条巷道，踏足哪一块石头，都会翻动一页历史，触动一个朝代。</span>
+
+<layout></layout>

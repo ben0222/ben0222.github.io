@@ -16,12 +16,13 @@ export const zhNavbar = navbar([
         },
         {
           text: "赤水塘村",
-          link: "/zh/intro.html"
+          link: "/zh/guide/chishuitang/index.html"
         },
         {
           text: "澄湖村",
-          link: "/zh/intro.html"
+          link: "/zh/guide/chenghu/index.html"
         },
+
       ]
 
   },
@@ -31,7 +32,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "参观",
-    link: "/zh/intro.html"
+    link: "/zh/visit/index.html"
   },
   {
     text: "关于",

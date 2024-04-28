@@ -8,4 +8,4 @@ cover: /assets/images/overlook1.jpeg
 ![images/三星榕](/assets/images/sanxingrong1.jpg "三星榕")
 
 ![images/鸿运台](/assets/images/hongyuntai.jpg "鸿运台")
-<VidStack src="/assets/recording/hht.aac" title="鸿运台" />
+<VidStack src="/assets/recording/sxr.aac" title="三星榕" />

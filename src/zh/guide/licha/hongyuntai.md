@@ -11,4 +11,4 @@ cover: /assets/images/overlook1.jpeg
 《淮南子·鸿烈序》道：鸿，大也。“鸿运”即走大运。俗传在鸿运台诚心走上3圈，按顺时针正走3圈有正财，按逆时针反走3圈有偏财，# 同时燃放鸿运炮竹，便可财运亨通、心随所愿。此地是村民们心目中的福地。
 
 ![images/鸿运台](/assets/images/hongyuntai.jpg "鸿运台")
-<VidStack src="/assets/recording/hht.aac" title="鸿运台" />
+<VidStack src="/assets/recording/hyt.aac" title="鸿运台" />
