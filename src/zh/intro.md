@@ -10,8 +10,8 @@ cover: /assets/images/group_photo1.jpg
 作为学院的新生队伍，队伍围绕乡村旅游经济高质量发展的主题自主设计了三大特色活动：**景区景点文化志愿讲解服务、金渡花席非遗文化传承宣传活动、景区游园文化摆摊活动**。活动突出景区和经管类专业特色，累计服务游客村民逾1100人次，获当地政府高度肯定。
 
 <div class="ewm">
-    <i><img src="/assets/images/group_photo1.jpg" alt="">官方微博</i>
-    <i><img src="/assets/images/group_photo1.jpg" alt="">官方微信</i>
-    <i><img src="/assets/images/group_photo1.jpg" alt="">test</i>
+    <i><img src="/assets/images/group_photo1.jpg" alt=""></i>
+    <i><img src="/assets/images/group_photo3.jpg" alt=""></i>
+    <i><img src="/assets/images/group_photo4.jpg" alt=""></i>
 </div>
 
