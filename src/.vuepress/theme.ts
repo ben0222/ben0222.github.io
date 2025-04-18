@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/assets/images/logo_licha.jpg",//重新提交
+  logo: "/assets/images/logo2.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -21,10 +21,8 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      BiliBili: "https://space.bilibili.com/472990590?spm_id_from=333.337.0.0",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      XiaoHongShu: "https://example.com"
+      BiliBili: "https://space.bilibili.com/3546720529025633?spm_id_from=333.337.0.0",
+      Douyin: "https://www.douyin.com/user/MS4wLjABAAAAxmzL4WT1FGQV1luP8foZgZ6smekdujCfQprYbXdWqmg?from_tab_name=main"
     },
     sidebarDisplay: "always",
   },
@@ -69,7 +67,7 @@ export default hopeTheme({
 
       blog: {
         name: "梨香茶叹",
-        avatar: "/assets/images/logo_licha.jpg",
+        avatar: "/assets/images/logo2.png",
         description: "来自华南师范大学的社会实践队伍",
         intro: "/zh/intro.html",
 

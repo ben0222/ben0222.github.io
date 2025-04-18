@@ -33,11 +33,11 @@
                 <div class="news">近期资讯</div>
                 <div class="news-list">
                     <ul>
-                        <a href="/zh/news/0305.html">
+                        <a href="https://mp.weixin.qq.com/s/afQxaAWWhgmdncAccbLOoQ">
                             <div class="date">2024/03/06</div>
                             <div class="news-li">一路生花 畅游“八卦”</div>
                         </a>
-                        <a href="/zh/news/0419.html">
+                        <a href="https://mp.weixin.qq.com/s/bdILcQx09FDxN3FR9wNpZA">
                             <div class="date">2024/04/19</div>
                             <div class="news-li">五一假期的正确打开方式</div>
                         </a>
@@ -110,7 +110,7 @@ a {
     /* 去除默认的下划线 */
     outline: none;
     /* 去除旧版浏览器的点击后的外虚线框 */
-    color: #FFF;
+
     /* webkit-tap-highlight-color: transparent; */
 
 }
