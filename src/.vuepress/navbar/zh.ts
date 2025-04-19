@@ -10,10 +10,10 @@ export const zhNavbar = navbar([
     text: "智述",
     children:
       [
-        {
-          text: "黎槎古村八卦景区",
-          link: "/zh/guide/licha/index.html"
-        },
+        // {
+        //   text: "黎槎古村八卦景区",
+        //   link: "/zh/guide/licha/index.html"
+        // },
         // {
         //   text: "赤水塘村",
         //   link: "/zh/guide/chishuitang/index.html"
