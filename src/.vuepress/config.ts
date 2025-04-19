@@ -11,12 +11,12 @@ export default defineUserConfig({
     "/zh/": {
 
       lang: "zh-CN",
-      title: "肇庆回龙全域旅游",
+      title: "康旅乐居 · 学游融汇",
       description: "vuepress-theme-hope 的博客演示",
     },
     "/": {
       lang: "en-US",
-      title: "Zhaoqing Huilong",
+      title: "",
       description: "A blog demo for vuepress-theme-hope",
     },
 
